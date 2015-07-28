@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8"/>
+	<title>View Source</title>
+
+	<meta name = "viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+	<script src ="js/myscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="_/css/mystyles.css">
+</head>
+
+<body>
+
+	<!--Page: Home-->
+	<div id="home" data-role="page" data-theme="a" data-title="View Source:Home">
+		<div data-role="header"data-theme="b" data-position="fixed" data-id="vs_header">
+			<a href="#info" data-icon="info" data-iconpos="notext" class="ui-btn-right"
+			>Info</a>
+		</div><!--header-->
+		<!--Body: Home-->
+		<div data-role="content"><img src="images/brainstorm.png"></div>
+		<div data-role="controlgroup" data-theme="b">
+			<a href="#blog" data-role="button" data-mini="true" data-icon="arrow-r">Blog</a>
+			<a href="#videos" data-role="button" data-mini="true" data-icon="video">Videos</a>
+			<a href="#photos" data-role="button" data-mini="true" data-icon="camera">Photos</a>
+			<a href="#tweets" data-role="button" data-mini="true" data-icon="arrow-r">Tweets</a>
+		</div><!--body-->
+	</div><!--page-->
+
+	<!--Page: Blog-->
+	<div id="blog" data-role="page" data-title="View Source: Blog">
+		<div data-role="header" data-theme="b" data-position="fixed" data-id="vs_header">
+			<h1>Blog</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext"
+			>Info</a>
+		</div><!--header-->
+		<!--Body: Blog-->
+		<div data-role="content">
+			<h2><p>This is our blog</p></h2>
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie augue ac libero maximus egestas.</h3><p> Mauris tincidunt efficitur dui non convallis. Integer dictum nisi et ornare eleifend. Aenean consectetur nulla eget augue convallis, nec tincidunt nulla consequat. Sed lobortis non nunc vel laoreet. Nulla sodales pretium libero, vitae egestas lacus molestie ac. Proin a sapien a elit mattis auctor.</p>
+				</div><!--collapsible-->
+				<div data-role="collapsible">
+					<h3>Nulla quam risus, aliquet sed interdum quis, facilisis quis metus.</h3><p> Cras laoreet mi tellus, id luctus purus ullamcorper sit amet. Vestibulum ex diam, rhoncus eget eros dapibus, iaculis convallis sem. In non ligula eu felis dictum sagittis eu id turpis. Etiam eget dapibus mauris. Phasellus mollis neque eget sapien vehicula, commodo elementum turpis ullamcorper. Donec non felis elementum arcu porttitor accumsan. Duis eu felis in nisi mattis cursus. Sed elementum neque diam, at aliquet lectus cursus quis.</p>
+				</div><!--collapsible-->
+				<div data-role="collapsible">
+					<h3>Mauris porttitor, enim ac iaculis ultricies, odio mauris porttitor metus, ac gravida enim enim a massa.</h3> <p>llentesque pellentesque sed eros non pellentesque. Curabitur tincidunt ipsum vel malesuada imperdiet. Donec eget tellus in dolor posuere laoreet eget eget est. Fusce facilisis sapien nec lorem tristique, vel fermentum enim blandit. Suspendisse id consequat ante. Quisque neque justo, molestie eget eros a, ultricies semper risus. Cras in magna mollis, consectetur justo in, vehicula urna. Pellentesque pretium condimentum augue, quis ultrices dui viverra eu. Integer velit tortor, cursus et augue ornare, luctus condimentum leo. Phasellus efficitur metus ut purus venenatis, eget lacinia lacus vulputate.</p>
+				</div><!--collapsible-->
+			</div>
+			
+		</div><!--body-->
+		<!--Footer: Blog-->
+		<div data-role="footer" data-theme="b" data-position="fixed" data-id="vs_footer">
+			<div data-role= "navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-mini="true" data-icon="home">Home</a>
+					<li><a href="#" data-role="button" data-mini="true" data-icon="arrow-r">Blog</a>
+					<li><a href="#videos" data-role="button" data-mini="true" data-icon="video">Videos</a>
+					<li><a href="#photos" data-role="button" data-mini="true" data-icon="camera">Photos</a>
+					<li><a href="#tweets" data-role="button" data-mini="true" data-icon="arrow-r">Tweets</a>
+				</ul>
+			</div>
+		</div><!--footer-->
+	</div><!--page-->
+
+	<!--Page: Videos-->
+	<div id="videos" data-role="page"  data-title="View Source: Videos">
+		<div data-role="header" data-theme="b" data-position="fixed" data-id="vs_header">
+			<h1>Videos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext"
+			>Info</a>
+		</div><!--header-->
+		<!--Body: Videos-->
+		<div data-role="content">
+			<div id="videolist" class="ui-grid-a">
+				<div class="ui-block-a">
+					<a href ="https://www.youtube.com/watch?v=G8h-WJZOrR0">
+					<div class ="movietitle">Amazing Football</div>
+					<img src ="_/css/images/soccer.jpg" alt="Video: Amazing Football (Soccer) Skills 2015 Highlights Compilation"></a>
+				</div>
+				
+				<div class="ui-block-b">
+					<a href ="https://www.youtube.com/watch?v=CqNJ1ts8e_w">
+					<div class ="movietitle"> Mayweather vs Pacquiao </div>
+					<img src ="_/css/images/box.jpg" alt="Video: Floyd Mayweather vs Manny Pacquiao Full Fight"></a>
+				</div>
+				
+				<div class="ui-block-a">
+					<a href ="https://www.youtube.com/watch?v=eOFIlk--aDc">
+					<div class ="movietitle">NBA Highlights</div>
+					<img src ="_/css/images/nba.jpg" alt="Video: NBA Highlights: Best Plays 2014-2015 Regular Season"></a>
+				</div>
+
+				<div class="ui-block-b">
+					<a href ="https://www.youtube.com/watch?v=2O7K-8G2nwU">
+					<div class ="movietitle">Bolt Wins Olympic Gold</div>
+					<img src ="_/css/images/bolt.jpg" alt="Video: Usain Bolt Wins Olympic 100m Gold - London 2012 Olympics"></a>
+				</div>
+
+				<div class="ui-block-a">
+					<a href ="https://www.youtube.com/watch?v=JY9mrKR5SkA">
+					<div class ="movietitle">MotoGP Historic Battles</div>
+					<img src ="_/css/images/gp.jpg" alt="Video: MotoGP Historic Battles -- Rossi vs Stoner Laguna Seca 08'"></a>
+				</div>
+
+				<div class="ui-block-b">
+					<a href ="https://www.youtube.com/watch?v=W0sI07hVWDE">
+					<div class ="movietitle">WWE Summer Slam </div>
+					<img src ="_/css/images/wwe.jpg" alt="Video: WWE Summer Slam Highlight"></a>
+				</div>
+				
+			</div>
+		</div>
+		<!--body-->
+		<!--Footer: Videos-->
+		<div data-role="footer" data-theme="b" data-position="fixed" data-id="vs_footer">
+			<div data-role= "navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-mini="true" data-icon="home">Home</a>
+					<li><a href="#blog" data-role="button" data-mini="true" data-icon="arrow-r">Blog</a>
+					<li><a href="#" data-role="button" data-mini="true" data-icon="video">Videos</a>
+					<li><a href="#photos" data-role="button" data-mini="true" data-icon="camera">Photos</a>
+					<li><a href="#tweets" data-role="button" data-mini="true" data-icon="arrow-r">Tweets</a>
+				</ul>
+			</div>
+		</div><!--footer-->
+	</div><!--page
+
+	<!--Page: Photos-->
+	<div id="photos" data-role="page" data-title="View Source: Photos">
+		<div data-role="header" data-theme="b" data-position="fixed" data-id="vs_header">
+			<h1>Photos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext"
+			>Info</a>
+		</div><!--header-->
+		<!--Body: Photos-->
+		<p>This is our blog</p><!--body-->
+		<!--Footer: Photos-->
+		<div data-role="footer" data-theme="b" data-position="fixed" data-id="vs_footer">
+			<div data-role= "navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-mini="true" data-icon="home">Home</a>
+					<li><a href="#blog" data-role="button" data-mini="true" data-icon="arrow-r">Blog</a>
+					<li><a href="#videos" data-role="button" data-mini="true" data-icon="video">Videos</a>
+					<li><a href="#" data-role="button" data-mini="true" data-icon="camera">Photos</a>
+					<li><a href="#tweets" data-role="button" data-mini="true" data-icon="arrow-r">Tweets</a>
+				</ul>
+			</div>
+		</div><!--footer-->
+	</div><!--page
+	
+	<!--Page: Tweets-->
+	<div id="tweets" data-role="page"  data-title="View Source: Tweets">
+		<div data-role="header" data-theme="b" data-position="fixed" data-id="vs_header">
+			<h1>Tweets</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext"
+			>Info</a>
+
+		</div><!--header-->
+		<!--Body: Tweets-->
+		<p>This is our blog</p><!--body-->
+		<!--Footer: Tweets-->
+		<div data-role="footer" data-theme="b" data-position="fixed" data-id="vs_footer">
+			<div data-role= "navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-mini="true" data-icon="home">Home</a>
+					<li><a href="#blog" data-role="button" data-mini="true" data-icon="arrow-r">Blog</a>
+					<li><a href="#video" data-role="button" data-mini="true" data-icon="video">Videos</a>
+					<li><a href="#photos" data-role="button" data-mini="true" data-icon="camera">Photos</a>
+					<li><a href="#" data-role="button" data-mini="true" data-icon="arrow-r">Tweets</a>
+				</ul>
+			</div>
+		</div><!--footer-->
+	</div><!--page-->
+
+	<div data-role="page" id="info" data-theme="b" data-dialog="true">
+		<div data-role="header">
+			<h1>About View Source</h1>
+		</div>
+		<div data-role="content">
+			<p>Nulla quam risus, aliquet sed interdum quis, facilisis quis metus.Cras laoreet mi tellus, id luctus purus ullamcorper sit amet. Vestibulum ex diam, rhoncus eget eros dapibus, iaculis convallis sem. In non ligula eu felis dictum sagittis eu id turpis. Etiam eget dapibus mauris. Phasellus mollis neque eget sapien vehicula, commodo elementum turpis ullamcorper. Donec non felis elementum arcu porttitor accumsan. Duis eu felis in nisi mattis cursus. Sed elementum neque diam, at aliquet lectus cursus quis.</p>
+			<a href="#" data-inline="true"data-role="button"
+			data-rel="back">Cancel</a>
+			<a href="#home" data-inline="true" data-role="button">Home</a>
+			
+
+		</div>
+	</div>
+	
+</body>
+</html>

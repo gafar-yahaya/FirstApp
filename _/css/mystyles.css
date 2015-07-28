@@ -1,0 +1,38 @@
+body{
+	font-family: "Helvetica", Arial, sans-serif;
+}
+#home {
+	text-align: center;
+	background: url('../../images/bg.jpg');
+}
+#blog {
+	text-align: center;
+	background: url('../../images/bg.jpg');
+}
+#videos {
+	text-align: center;
+	background: url('../../images/bg.jpg');
+}
+#photos {
+	text-align: center;
+	background: url('../../images/bg.jpg');
+}
+#tweets {
+	text-align: center;
+	background: url('../../images/bg.jpg');
+}
+
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#videolist img {
+	display: block;
+	width: 90%;
+}
+
+.ui-nosvg .ui-icon-blogger:after {
+	background-image: url('../../images/blogger.png');
+}
